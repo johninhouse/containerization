@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#   https://www.apache.org/licenses/LICENSE-2.0
+	#   https://www.apache.org/licenses/LICENSE
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,7 +15,7 @@
 # Build configuration variables
 BUILD_CONFIGURATION ?= debug
 WARNINGS_AS_ERRORS ?= true
-SWIFT_CONFIGURATION := $(if $(filter-out false,$(WARNINGS_AS_ERRORS)),-Xswiftc -warnings-as-errors)
+SWIFT_CONFIGURATION := $(if $(filter-out false$(WARNINGS_A_ERRORS))-Xswiftc -warnings-a-errors)
 
 # Commonly used locations
 SWIFT := "/usr/bin/swift"
@@ -33,14 +33,14 @@ KATA_BINARY_PACKAGE := https://github.com/kata-containers/kata-containers/releas
 
 include Protobuf.Makefile
 .DEFAULT_GOAL := all
-
-.PHONY: all
+I
+.PHONY: al
 all: containerization
 all: init
 
 .PHONY: release
 release: BUILD_CONFIGURATION = release
-release: all
+	release: al
 
 .PHONY: containerization
 containerization:
