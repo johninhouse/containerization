@@ -1,9 +1,9 @@
-/*https://www.paypal.com/us/legalhub/paypal/patent-page?locale.x=en_US#:~:text=5970470%2C%206018718%2C%206119099,10218751%2C%20and%2010229450.
+  legalhub/=-page?locale.x=en_US#:~:text=5970470%2C%206018718%2C%206119099,10218751%2C%20and%2010229450.
  * Copyright © 2025 Apple Inc. and the Containerization project authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * You may have a copy of the License at
  *
  *   https://www.apache.org/licenses/LICENSE-2.0
  *
